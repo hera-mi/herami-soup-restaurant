@@ -241,6 +241,7 @@
       <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
+        <version>2.6</version>
       </dependency>
       <dependency>
         <groupId>org.projectlombok</groupId>
@@ -251,6 +252,7 @@
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-to-slf4j</artifactId>
+        <version>2.13.3</version>
       </dependency>
       <dependency>
         <groupId>org.junit.jupiter</groupId>
@@ -261,19 +263,23 @@
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest</artifactId>
         <scope>test</scope>
+        <version>2.2</version>
       </dependency>
       <dependency>
         <groupId>de.flapdoodle.embed</groupId>
         <artifactId>de.flapdoodle.embed.mongo</artifactId>
         <scope>test</scope>
+        <version>2.2.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-mongodb</artifactId>
+        <version>3.0.4.RELEASE</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        <version>2.3.4.RELEASE</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -284,10 +290,12 @@
             <groupId>org.springframework.boot</groupId>
           </exclusion>
         </exclusions>
+        <version>2.3.4.RELEASE</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-undertow</artifactId>
+        <version>2.3.4.RELEASE</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -299,6 +307,7 @@
             <groupId>org.junit.vintage</groupId>
           </exclusion>
         </exclusions>
+        <version>2.3.4.RELEASE</version>
       </dependency>
       <dependency>
         <groupId>org.weasis.thirdparty.org.opencv</groupId>
@@ -334,12 +343,9 @@
         <classifier>windows-x86-64</classifier>
       </dependency>
       <dependency>
-        <groupId>org.dcm4che</groupId>
-        <artifactId>dcm4che-core</artifactId>
-      </dependency>
-      <dependency>
         <groupId>org.dcm4che.tool</groupId>
         <artifactId>dcm4che-tool-common</artifactId>
+        <version>5.20.0</version>
       </dependency>
       <dependency>
         <groupId>org.dcm4che.tool</groupId>
@@ -411,6 +417,7 @@
         <groupId>org.dcm4che.tool</groupId>
         <artifactId>dcm4che-tool-storescu</artifactId>
         <scope>test</scope>
+        <version>5.20.0</version>
       </dependency>
       <dependency>
         <groupId>org.dcm4che</groupId>
@@ -426,10 +433,12 @@
       <dependency>
         <groupId>org.dcm4che</groupId>
         <artifactId>dcm4che-imageio-opencv</artifactId>
+        <version>5.20.0</version>
       </dependency>
       <dependency>
         <groupId>org.dcm4che</groupId>
         <artifactId>dcm4che-net</artifactId>
+        <version>5.20.0</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -440,14 +449,17 @@
             <groupId>org.slf4j</groupId>
           </exclusion>
         </exclusions>
+        <version>2.3.4.RELEASE</version>
       </dependency>
       <dependency>
         <groupId>org.tensorflow</groupId>
         <artifactId>tensorflow</artifactId>
+        <version>1.15.0</version>
       </dependency>
       <dependency>
         <groupId>org.tensorflow</groupId>
         <artifactId>proto</artifactId>
+        <version>1.15.0</version>
       </dependency>
       <dependency>
         <groupId>net.imagej</groupId>
@@ -458,6 +470,7 @@
             <groupId>com.sun</groupId>
           </exclusion>
         </exclusions>
+        <version>1.52n</version>
       </dependency>
       <dependency>
         <groupId>org.junit.platform</groupId>
@@ -468,6 +481,7 @@
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
+        <version>2.11.2</version>
       </dependency>
       <dependency>
         <groupId>org.apache.maven</groupId>
@@ -477,11 +491,13 @@
       <dependency>
         <groupId>org.apache.activemq</groupId>
         <artifactId>artemis-jms-client</artifactId>
+        <version>2.12.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.activemq</groupId>
         <artifactId>artemis-jms-server</artifactId>
         <scope>test</scope>
+        <version>2.12.0</version>
       </dependency>
       <dependency>
         <groupId>com.javax0.license3j</groupId>
